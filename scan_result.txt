@@ -1,0 +1,17 @@
+# Nmap 7.97 scan initiated Mon Jun 23 11:37:18 2025 as: nmap -sT -oN scan_result.txt 192.168.0.104/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0038s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+80/tcp    open  http
+52869/tcp open  unknown
+
+Nmap scan report for 192.168.0.104
+Host is up (0.000070s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+7000/tcp  open  afs3-fileserver
+49155/tcp open  unknown
+
+# Nmap done at Mon Jun 23 11:39:32 2025 -- 256 IP addresses (2 hosts up) scanned in 134.21 seconds
