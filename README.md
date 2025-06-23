@@ -22,3 +22,8 @@ The goal is to understand how devices in a local network communicate and to dete
 1. scan_result.txt : Raw output from Nmap showing open ports in the local network
 2. Task 1_Report : Full analysis and summary of the scan results
 3. Terminal.png (Screenshots) : Visual references of terminal outputs
+
+# Security Concerns:
+1. Unnecessary open ports could expose the system to risk
+2. If no password is set on the router panel, it's vulnerable
+3. Services like UPnP or development servers should be disabled when not in use
